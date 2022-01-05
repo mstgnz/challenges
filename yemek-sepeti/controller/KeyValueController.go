@@ -3,9 +3,9 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/mstgnz/yemek-sepeti-challange/dto"
-	"github.com/mstgnz/yemek-sepeti-challange/service"
 	"net/http"
+	"yemek-sepeti/dto"
+	"yemek-sepeti/service"
 )
 
 type IKeyValueController interface {

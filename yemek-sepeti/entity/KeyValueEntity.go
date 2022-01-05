@@ -2,7 +2,7 @@ package entity
 
 import (
 	"errors"
-	"github.com/mstgnz/yemek-sepeti-challange/dto"
+	"yemek-sepeti/dto"
 )
 
 // KeyValue -> Definition key value struct

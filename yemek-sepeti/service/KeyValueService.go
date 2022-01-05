@@ -3,10 +3,10 @@ package service
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/mstgnz/yemek-sepeti-challange/dto"
-	"github.com/mstgnz/yemek-sepeti-challange/entity"
 	"io/ioutil"
 	"strings"
+	"yemek-sepeti/dto"
+	"yemek-sepeti/entity"
 )
 
 type IKeyValueService interface {
