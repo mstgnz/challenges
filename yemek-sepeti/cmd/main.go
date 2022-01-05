@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/mstgnz/yemek-sepeti-challange/controller"
-	"github.com/mstgnz/yemek-sepeti-challange/entity"
-	"github.com/mstgnz/yemek-sepeti-challange/service"
 	"log"
 	"net/http"
 	"os"
+	"yemek-sepeti/controller"
+	"yemek-sepeti/entity"
+	"yemek-sepeti/service"
 )
 
 var (
@@ -24,7 +24,7 @@ func main() {
 	// cron
 	go fakeCron()
 
-	httpPort := 8080
+	httpPort := 8181
 	logPath := "development.log"
 	openLogFile(logPath)
 
